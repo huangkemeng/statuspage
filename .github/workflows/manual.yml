@@ -1,4 +1,4 @@
-name: Manual Script Runner
+name: manual health check
 
 on:
   workflow_dispatch:
