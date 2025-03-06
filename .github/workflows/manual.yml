@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Shell Script
-        id: shell_script_run
+        id: manual_shell_script_run
         run: bash ./health-check.sh
