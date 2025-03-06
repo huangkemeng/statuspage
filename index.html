@@ -5,11 +5,6 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-  <script>
-         const script = document.createElement('script');
-          script.src = 'index.js?v=' + new Date().getTime();
-          document.head.appendChild(script);
-   </script>
     <div class="pageContainer">
       <div class="headline">
         <img src="https://omeoffice.com/img/logo_linshi.png" alt="Logo" width="66px" />
@@ -55,6 +50,9 @@
   </body>
   <script>
      document.addEventListener('DOMContentLoaded', function() {
+          const script = document.createElement('script');
+          script.src = 'index.js?v=' + new Date().getTime();
+           document.body.appendChild(script);
            genAllReports();
         });
   </script>
