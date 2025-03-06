@@ -52,7 +52,7 @@
      document.addEventListener('DOMContentLoaded', function() {
           const script = document.createElement('script');
           script.src = 'index.js?v=' + new Date().getTime();
-           document.body.appendChild(script);
+           document.head.appendChild(script);
            genAllReports();
         });
   </script>
